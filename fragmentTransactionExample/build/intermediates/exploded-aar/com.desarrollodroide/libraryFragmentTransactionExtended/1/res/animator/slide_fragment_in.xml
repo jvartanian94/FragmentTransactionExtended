@@ -19,4 +19,4 @@
     android:propertyName="yFraction"
     android:valueType="floatType"
     android:duration="@integer/slide_up_down_duration">
-</objectAnimator><!-- From: file:/home/myubuntu/AndroidStudioProjects/FragmentTransactionExtended/libraryFragmentTransactionExtended/src/main/res/animator/slide_fragment_in.xml -->
+</objectAnimator>

@@ -21,4 +21,4 @@
         android:startOffset="300"
         android:valueFrom="0.0"
         android:valueTo="1.0" />
-</set><!-- From: file:/home/myubuntu/AndroidStudioProjects/FragmentTransactionExtended/libraryFragmentTransactionExtended/src/main/res/animator/scalex_enter.xml -->
+</set>

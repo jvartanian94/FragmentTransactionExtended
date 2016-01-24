@@ -80,17 +80,17 @@ public final class R {
 		public static final int zoom_slide_vertical_tablet_right_in = 0x7f040045;
 	}
 	public static final class dimen {
-		public static final int activity_horizontal_margin = 0x7f060000;
-		public static final int activity_vertical_margin = 0x7f060001;
+		public static final int activity_horizontal_margin = 0x7f050000;
+		public static final int activity_vertical_margin = 0x7f050001;
 	}
 	public static final class integer {
-		public static final int card_flip_time_full = 0x7f070000;
-		public static final int card_flip_time_half = 0x7f070001;
-		public static final int half_slide_up_down_duration = 0x7f070002;
-		public static final int slide_up_down_duration = 0x7f070003;
-		public static final int slide_up_down_final_value = 0x7f070004;
+		public static final int card_flip_time_full = 0x7f080000;
+		public static final int card_flip_time_half = 0x7f080001;
+		public static final int half_slide_up_down_duration = 0x7f080002;
+		public static final int slide_up_down_duration = 0x7f080003;
+		public static final int slide_up_down_final_value = 0x7f080004;
 	}
 	public static final class string {
-		public static final int action_settings = 0x7f080000;
+		public static final int action_settings = 0x7f090000;
 	}
 }

@@ -41,4 +41,4 @@
         android:valueFrom="0.7"
         android:valueTo="1" />
 
-</set><!-- From: file:/home/myubuntu/AndroidStudioProjects/FragmentTransactionExtended/libraryFragmentTransactionExtended/src/main/res/animator/zoom_slide_horizontal_tablet_right_in.xml -->
+</set>

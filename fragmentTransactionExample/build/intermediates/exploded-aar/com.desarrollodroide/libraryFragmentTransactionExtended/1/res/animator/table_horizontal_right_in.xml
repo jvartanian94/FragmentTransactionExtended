@@ -6,4 +6,4 @@
         android:valueFrom="1"
         android:valueTo="0"
         android:valueType="floatType" />
-</set><!-- From: file:/home/myubuntu/AndroidStudioProjects/FragmentTransactionExtended/libraryFragmentTransactionExtended/src/main/res/animator/table_horizontal_right_in.xml -->
+</set>

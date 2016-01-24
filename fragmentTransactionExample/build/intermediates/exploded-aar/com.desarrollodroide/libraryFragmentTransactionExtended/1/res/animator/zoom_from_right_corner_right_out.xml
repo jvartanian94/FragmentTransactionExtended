@@ -9,4 +9,4 @@
         android:valueTo="0.0"
         android:valueType="floatType" />
     
-</set><!-- From: file:/home/myubuntu/AndroidStudioProjects/FragmentTransactionExtended/libraryFragmentTransactionExtended/src/main/res/animator/zoom_from_right_corner_right_out.xml -->
+</set>

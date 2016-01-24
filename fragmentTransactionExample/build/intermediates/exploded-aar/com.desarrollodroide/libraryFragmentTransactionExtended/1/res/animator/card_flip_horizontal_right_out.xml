@@ -50,4 +50,3 @@
         android:startOffset="@integer/card_flip_time_half"
         android:duration="1" />
 </set>
-<!-- From: file:/home/myubuntu/AndroidStudioProjects/FragmentTransactionExtended/libraryFragmentTransactionExtended/src/main/res/animator/card_flip_horizontal_right_out.xml -->
