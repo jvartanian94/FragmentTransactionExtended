@@ -1,7 +1,5 @@
 package com.desarrollodroide.libraryfragmenttransactionextended;
 
-import com.desarrollodroide.libraryfragmenttransitionextended.R;
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
@@ -12,7 +10,10 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.text.TextUtils;
 import android.view.View;
+
+import com.desarrollodroide.libraryfragmenttransitionextended.R;
 
 
 public class FragmentTransactionExtended implements FragmentManager.OnBackStackChangedListener {
@@ -56,6 +57,10 @@ public class FragmentTransactionExtended implements FragmentManager.OnBackStackC
     }
 
     public void addTransition(int transitionType) {
+        addTransition(transitionType, "");
+    }
+
+    public void addTransition(int transitionType, String fragmentTag) {
         this.mTransitionType = transitionType;
         switch (transitionType) {
             case SCALEX:
@@ -127,7 +132,12 @@ public class FragmentTransactionExtended implements FragmentManager.OnBackStackC
             	transitionZoomSlideVertical();
                 break;
         }
-        mFragmentTransaction.replace(mContainerID, mSecondFragment);
+
+        if (TextUtils.isEmpty(fragmentTag)) {
+            mFragmentTransaction.replace(mContainerID, mSecondFragment);
+        } else {
+            mFragmentTransaction.replace(mContainerID, mSecondFragment, fragmentTag);
+        }
     }
 
     private void transitionFade() {
